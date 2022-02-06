@@ -1,0 +1,28 @@
+{
+    "logo": {
+        "image": {},
+        "url": ""
+    },
+    "links": 
+    [
+        {
+            "id": "about",
+            "url": "/about",
+            "text": "About",
+            "newTab": false        
+        },
+        {
+            "id": "contact",
+            "url": "/contact",
+            "text": "Contact",
+            "newTab": false        
+        }
+    
+    ],
+    "button": {
+        "theme": "",
+        "text": "",
+        "newTab":false
+    }
+
+}

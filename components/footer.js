@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 const Footer = ({ footer }) => {
-  const { socialFooter } = require("./social/social.json");
+  const { socialFooter } = require("./app-config/social.json");
   return (
     <footer className="bg-gray-100">
       <div className="container flex flex-col md:flex-row md:justify-between">
