@@ -1,0 +1,30 @@
+
+{
+    "socialFooter":[
+       {
+           "id": "f",
+           "name": "facebook",
+           "url": "#",
+           "icon":"/assets/facebook.svg"
+        },
+        {
+            "id": "i",
+            "name": "instagram",          
+            "url": "#",
+            "icon":"/assets/instagram.svg"
+        },
+        {
+            "id": "l",
+            "name":"linkedin",
+            "url": "#",
+            "icon":"/assets/linkedin.svg"
+        },
+       { 
+           "id": "t",
+           "name": "twitter",
+            "url": "#",
+            "icon":"/assets/twitter.svg"
+        }
+    ]
+
+}
