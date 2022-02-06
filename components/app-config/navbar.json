@@ -6,14 +6,19 @@
     "links": 
     [
         {
+            "id": "home",
+            "url": "/",
+            "text": "Home",
+            "newTab": false        
+        },        {
             "id": "about",
-            "url": "/about",
+            "url": "/pages/about",
             "text": "About",
             "newTab": false        
         },
         {
             "id": "contact",
-            "url": "/contact",
+            "url": "/pages/contact",
             "text": "Contact",
             "newTab": false        
         }

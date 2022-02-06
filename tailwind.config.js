@@ -1,8 +1,12 @@
+const { colors } = require(`tailwindcss/defaultTheme`);
+
 module.exports = {
   content: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
     extend: {
       colors: {
+        primary: "#994332",
+        secondary: "#e3ac72",
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
         'accent-7': '#333',
