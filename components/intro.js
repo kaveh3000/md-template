@@ -1,4 +1,6 @@
 
+import introProps from "@/components/app-config/intro.json"
+
 export default function Intro() {
   return (
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
@@ -6,13 +8,14 @@ export default function Intro() {
         Sample
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Another Website by {' '}
+        {`${introProps.preUrlMessage} `}
         <a
-          href="https://aviertechnologies.com/"
+          href={introProps.url}
           className="underline hover:text-success duration-200 transition-colors"
         >
-          Avier Technologies
+          {introProps.urlText}
         </a>
+        {introProps.postUrlMessage}
       </h4>
     </section>
   )
