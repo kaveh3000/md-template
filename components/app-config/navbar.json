@@ -1,7 +1,8 @@
 {
     "logo": {
-        "image": {},
-        "url": ""
+        "image": "/assets/helicopter.svg",
+        "url": "#",
+        "title": "Your Logo Here"
     },
     "links": 
     [

@@ -16,17 +16,16 @@ const Navbar = ({ navbar }) => {
         <div className="container flex flex-row items-center justify-between">
           {/* Content aligned to the left */}
           <div className="flex flex-row items-center">
-            { /* TODO
+            { 
             navbar.logo && (
-              <Link href="/">
-                <a>
-                  <img
-                    media={navbar.logo}
-                    className="h-12 w-auto object-contain"
-                  />
-                </a>
-              </Link>
-            ) */}
+              <a href={navbar.logo.url} classname="" target="_blank">
+                <img
+                  src={navbar.logo.image}
+                  className="h-12 w-auto object-contain px-12 text-secondary"
+                  title={navbar.logo.title || ""}
+                />
+              </a>
+            ) }
             {/* List of links on desktop */}
             <ul className="hidden list-none md:flex flex-row gap-4 items-baseline ml-10 text-gray-100 hover:text-gray-900">
               {navbar.links.map((navLink) => (
