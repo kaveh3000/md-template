@@ -21,13 +21,13 @@ const Navbar = ({ navbar }) => {
               <a href={navbar.logo.url} classname="" target="_blank">
                 <img
                   src={navbar.logo.image}
-                  className="h-12 w-auto object-contain px-12 text-secondary"
+                  className="h-12 w-auto object-contain px-12 fill-secondary"
                   title={navbar.logo.title || ""}
                 />
               </a>
             ) }
             {/* List of links on desktop */}
-            <ul className="hidden list-none md:flex flex-row gap-4 items-baseline ml-10 text-gray-100 hover:text-gray-900">
+            <ul className="hidden list-none lg:flex flex-row gap-4 items-baseline ml-10 text-gray-100 hover:text-gray-900">
               {navbar.links.map((navLink) => (
                 <li className="rounded hover:bg-secondary" key={navLink.id}>
                   <CustomLink link={navLink} locale={router.locale}>
@@ -43,7 +43,7 @@ const Navbar = ({ navbar }) => {
             {/* Hamburger menu on mobile */}
             <button
               onClick={() => setMobileMenuIsShown(true)}
-              className="p-1 block md:hidden"
+              className="p-1 block lg:hidden"
             >
               <MdMenu className="h-8 w-auto text-secondary" />
             </button>
