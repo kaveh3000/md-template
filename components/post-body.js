@@ -1,10 +1,12 @@
-import markdownStyles from './markdown-styles.module.css'
+import classNames from 'classnames'
 
 export default function PostBody({ content }) {
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl mx-auto prose">
       <div
-        className={markdownStyles['markdown']}
+        className={classNames(
+          "prose"
+        )}
         dangerouslySetInnerHTML={{ __html: content }}
       />
     </div>
