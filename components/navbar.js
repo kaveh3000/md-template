@@ -18,7 +18,7 @@ const Navbar = ({ navbar }) => {
           <div className="flex flex-row items-center">
             { 
             navbar.logo && (
-              <a href={navbar.logo.url} classname="" target="_blank">
+              <a href={navbar.logo.url} className="" target="_blank">
                 <img
                   src={navbar.logo.image}
                   className="h-12 w-auto object-contain px-12 fill-secondary"
